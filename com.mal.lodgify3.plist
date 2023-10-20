@@ -15,8 +15,8 @@
   <key>NSUIElement</key>
   <string>1</string>
   <key>StandardOutPath</key>
-  <string>/Users/chris.tziampazis/Desktop/output2.log</string>
+  <string>/tmp/output2.log</string>
   <key>StandardErrorPath</key>
-  <string>/Users/chris.tziampazis/Desktop/error2.log</string>
+  <string>/tmp/error2.log</string>
 </dict>
 </plist>
